@@ -1,4 +1,39 @@
-.searchbox{
-    text-align: center;
-    margin-bottom: 20px;
+.searchbox {
+    margin: 20px auto;
+    padding: 16px;
+    max-width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headline */
+.searchbox h3 {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+/* Form layout */
+.searchbox form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Responsive for larger screens */
+@media (min-width: 600px) {
+    .searchbox form {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .searchbox form>* {
+        margin-right: 12px;
+    }
+
+    .searchbox form>*:last-child {
+        margin-right: 0;
+    }
 }

@@ -1,10 +1,29 @@
-.InfoBox{
+.info-box {
+    padding: 20px;
     text-align: center;
-    
-    
 }
-.cardContainer{
+
+.weather-title {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.card-container {
     display: flex;
     justify-content: center;
+    padding: 10px;
+}
 
+.weather-card {
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+/* Optional: Better text wrapping on small screens */
+.weather-card p {
+    margin: 8px 0;
+    word-wrap: break-word;
 }

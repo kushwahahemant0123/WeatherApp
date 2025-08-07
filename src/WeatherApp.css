@@ -1,0 +1,25 @@
+.weather-container {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 90%;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+    .heading {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .weather-container {
+        max-width: 600px;
+    }
+}
